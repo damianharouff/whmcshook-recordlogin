@@ -1,0 +1,1 @@
+Place this file into yourWHMCSdir/includes/hooks/ and it will then record all client area logins to the client's activity log. Please keep in mind that it will record "Login as Client" logins from the admin interface, too.
