@@ -1,5 +1,8 @@
 <?php
 
+//By Damian Harouff - May 2013
+//Released under WTFPL - http://www.wtfpl.net/
+
 function ipxcoreaddIPToList($vars) {
 
 	$userid = $vars['userid'];
