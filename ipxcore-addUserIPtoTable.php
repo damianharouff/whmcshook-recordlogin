@@ -4,6 +4,8 @@
 //Released under WTFPL - http://www.wtfpl.net/
 
 function ipxcoreaddIPToList($vars) {
+	
+	if ($_SESSION['adminid']) {return;}
 
 	$userid = $vars['userid'];
 	$ipaddress =  $_SERVER['REMOTE_ADDR'];
